@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+html, body{
+    height:100%;
+}
+
+.hero{
+    width:100vw;
+    height:100vh;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20241126/pngtree-blue-elegant-abstract-background-design-image_16662247.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

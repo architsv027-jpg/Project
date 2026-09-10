@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230715/pngtree-3d-render-of-drums-and-speaker-combo-image_3859947.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+   
+}
+.key {
+    width: 80px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Better background */
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(6px);
+
+    /* Border */
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    border-radius: 15px;
+
+    /* Text */
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+
+    /* Shadow */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.key:hover {
+    transform: scale(1.08);
+    background: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
+}
+
+.key:active {
+    transform: scale(0.95);
+    background: rgba(255, 255, 255, 0.3);
+}
